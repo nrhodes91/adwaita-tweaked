@@ -1,0 +1,8 @@
+ADWAITA TWEAKED
+
+    Rather than maintaining the full Adwaita Gnome Shell and GTK3 css code base
+    to modify the themes, this repo holds a small set of overrides that are
+    more easily maintained between Gnome point releases.
+
+    The end goal is to create a modular approach to overriding the stock theme
+    by including css module files that contain very specific override rules.
