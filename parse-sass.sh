@@ -5,7 +5,7 @@ if [ ! "$(which sassc 2> /dev/null)" ]; then
    exit 1
 fi
 
-SASSC_OPT=( "-l" "-M" "-t" "expanded" )
+SASSC_OPT=( "-M" "-t" "compressed" )
 
 echo Generating GTK3 css...
 
