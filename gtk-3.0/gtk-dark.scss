@@ -1,6 +1,10 @@
-@import '_common';
-
-.nautilus-window .path-bar-box {
-    border-color: rgb(27,31,32);
-    background-color: rgb(51,57,59);
+/* line 1, gtk-3.0/gtk-dark.scss */
+.nautilus-window {
+    .path-bar-box {
+        border: 1px solid rgb(27,31,32);
+        border-radius: 3px;
+        &.width-maximized:not(:backdrop) {
+            background-color: rgb(51,57,59);
+        }
+    }
 }
