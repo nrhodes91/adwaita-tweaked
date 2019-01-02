@@ -1,3 +1,82 @@
+headerbar.titlebar {
+    min-height: 0;
+    button {
+        min-height: 16px;
+        min-width: 16px;
+        padding: 4px;
+        &.text-button {
+            min-width: 100px;
+        }
+    }
+    .path-bar {
+        button {
+            min-width: 0;
+        }
+    }
+    .path-bar-box {
+        padding: 1px 0;
+    }
+}
+
+spinbutton, button {
+    min-height: 20px;
+    min-width: 16px;
+    padding: 2px 4px;
+}
+
+spinbutton {
+    padding: 0;
+}
+
+entry {
+    min-height: 24px;
+}
+
+switch slider {
+    min-height: 24px;
+    min-width: 42px;
+}
+
+notebook header {
+    margin: 0;
+    padding: 0;
+    tabs {
+        margin: 0;
+        padding: 0px;
+        tab {
+            min-height: 20px;
+            min-width: 42px;
+            padding: 4px 12px;
+            margin: 0;
+        }
+    }
+    &.top tabs tab {
+        padding-top: 3px;
+        padding-bottom: 4px;
+    }
+    &.bottom tabs tab {
+        padding-top: 4px;
+        padding-bottom: 3px;
+    }
+    &.left tabs tab {
+        padding-right: 16px;
+    }
+    &.right tabs tab {
+        padding-left: 16px;
+    }
+    tabs button {
+        min-height: 0;
+        min-width: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+}
+
+row.activatable {
+    min-height: 20px;
+    padding: 4px 4px;
+}
+
 .nautilus-window .path-bar-box {
     border-radius: 3px;
     border-style: solid;
