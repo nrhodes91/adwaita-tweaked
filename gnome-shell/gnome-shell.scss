@@ -1,12 +1,22 @@
 stage {
-  font-family: "Ubuntu";
-  font-size: 9pt;
+    font-family: "Ubuntu";
+    font-size: 9pt;
 }
 #panel {
     font-weight: 500;
     height: 2em;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
     .panel-button {
         font-weight: 500;
+    }
+    .panel-corner {
+        -panel-corner-radius: 0;
+        -panel-corner-background-color: transparent;
+        -panel-corner-border-color: transparent;
     }
 }
 .calendar-day-base {
